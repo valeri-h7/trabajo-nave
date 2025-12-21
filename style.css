@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root{
+    --color-primario-100: #FFFFFF; 
+    --color-secundario-500: #360C72;
+    --color-secundario-400: #652BDF;
+    --color-secundario-300: #E4D7FF;
+    --color-secundario-100: #F0EAFC;
+    --bg-color: #FCFBFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color:var(--color-primario-100)
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+ul{
+    list-style: none;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-logo-nave{
+   height: 34px
+}
+
+.header-nav-list{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.header-nav{
+    font-size: 14px;
+    font-weight: 550;
+    margin: 0 4px;
+    padding: 10px 12px;
+    border-radius: 50px;
+}
+
+
+.header-nav:hover{
+    background-color: var(--color-secundario-300);
+    cursor: pointer;
+}
+
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.btn-primary{
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-secundario-400);
+    background-color: transparent;
+    border: 1px solid var(--color-secundario-400);
+    border-radius: 50px;
+}
+
+.btn-secundary{
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-secundario-400);
+    border-radius: 50px;
+}
+
+.header-divider{
+    width: 1px;
+    height: 25px;
+    background-color: gainsboro;
+} 
+
+
+.logo{
+    display: none;
+}
+
+.btn-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (width < 770px) {
+    {
+        display: none;
+    }
+    .header__logo-mobile{
+        display: flex;
+        height: 36px;
+    }
+
+    .header__logo-container{
+        width: 50px;
+    }
+
+    .btn-menu{
+        font-size: 14px;
+        padding: 16px 24px;
+    }
+    .header{
+        padding: 0px 20px;
+    }
+}
+
