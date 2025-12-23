@@ -375,7 +375,7 @@ footer span{
 
 footer ul{
     margin-top: 16px;
-    list-style: none;
+    list-style: none; 
 }
 
 footer li{
@@ -393,7 +393,7 @@ footer a{
 
 @media (max-width: 990px){
 
-.header-content {
+.header-content{
 padding: 0 40px;
 }
 
@@ -427,7 +427,7 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-.section-card-text {
+.section-card-text{
 width: 45%;
 }
 
@@ -457,7 +457,6 @@ margin-left: 40px;
 .footer-list{
 padding: 0 40px;
 gap: 40px;
-flex-wrap: wrap;
 }
 
 .footer-list div{
@@ -467,14 +466,13 @@ width: 45%;
 
 @media (max-width: 766px) {
 
-/* HEADER */
 .header-nav-list,
 .header-btn,
-.header-divider {
+.header-divider{
 display: none;
 }
 
-.logo {
+.logo{
 display: block;
 }
 
@@ -550,10 +548,22 @@ width: 100%;
 
 @media(max-width:470px){
 
-h1{font-size:24px;}
+h1{
+    font-size:24px;
+}
 
-.title-charge{font-size:26px;}
-.text-charge{padding:0 20px;}
+.btn-content a{
+    font-size: 12px;
+    padding: 8px 30px;
+    
+}
+
+.title-charge{
+    font-size:26px;
+}
+.text-charge{
+    padding:0 20px;
+}
 
 .card-charge h2,
 .card-charge-reverse h2{
@@ -567,7 +577,7 @@ margin-left:20px;
 width:auto;
 }
 
-.btn-tertiary,
+.btn-tertiary
 .btn-tertiary2{
 margin-left:20px;
 }
@@ -580,6 +590,6 @@ footer{
 padding:24px 16px;
 }
 
-footer li{text-align:left;}
-
+footer li{text-align:left;
+}
 }
