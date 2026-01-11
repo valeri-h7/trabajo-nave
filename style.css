@@ -195,7 +195,6 @@ h1{
 }
 
 
-
 .btn-promotional{
     width: 100%;
     display: flex;
@@ -315,7 +314,6 @@ h1{
     margin-top: 24px;
 }
 
-
 .btn-tertiary:hover,
 .btn-tertiary2:hover{
     cursor: pointer;
@@ -330,7 +328,7 @@ h1{
 .img-charge:hover{
     cursor: pointer;
     padding: 2px;
-    }
+}
 
 
 footer{
@@ -348,7 +346,6 @@ footer img{
     justify-content: space-between;
     max-width: 1022px;
     margin: 0 auto;
-    
 }
 
 footer span{
@@ -373,11 +370,7 @@ footer a{
     color: black;
 }
 
-@media (max-width: 989px){
-
-.header-content{
-padding: 0 40px;
-}
+@media (max-width: 991px){
 
 nav{
 display: none;
@@ -392,6 +385,7 @@ display: block;
 background: none;
 border: none;
 font-size: 26px;
+align-content: center;
 }
 
 .logo{
@@ -402,51 +396,35 @@ display: block;
 display: none;
 }
 
+.separator{
+display: none;
+}
 
-.Cards{
-padding: 0 40px;
-flex-wrap: wrap;
-justify-content: center;
+h1{
+font-size: 30px;
+margin: 0;
 }
 
 .section-card-text{
 width: 45%;
 }
 
-.btn-content{
-width: 90%;
-height: auto;
-padding: 24px;
-flex-direction: column;
-gap: 20px;
-}
-
-.btn-p-tr{
-margin-top: 0;
-align-self: flex-start;
-}
-
-.card-charge,
-.card-charge-reverse{
-width: auto;
-margin: 40px;
-}
 
 footer img{
-margin-left: 40px;
+margin-left: initial;
+}
 }
 
-.footer-list{
+@media (max-width: 770px){
+
+.Cards{
 padding: 0 40px;
-gap: 40px;
-}
-
-.footer-list div{
-width: 45%;
+flex-wrap: wrap;
+justify-content: center;
 }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 765px){
 
 .header-nav-list,
 .header-btn,
@@ -458,7 +436,7 @@ display: none;
 display: block;
 }
 
-.btn-menu {
+.btn-menu{
 display: block;
 background: none;
 border: none;
@@ -473,7 +451,6 @@ h1{
 font-size: 28px;
 padding: 0 20px;
 }
-
 
 .Cards{
 flex-direction: column;
@@ -514,8 +491,7 @@ height: auto;
 }
 
 footer img{
-margin-left: 20px;
-margin-bottom: 24px;
+margin: initial;
 }
 
 .footer-list{
@@ -531,37 +507,30 @@ width: 100%;
 @media(max-width:470px){
 
 h1{
-    font-size:24px;
+font-size:24px;
 }
 
 .btn-content a{
-    font-size: 12px;
-    padding: 8px 30px;
-    
+font-size: 12px;
+padding: 8px 30px;
 }
 
 .title-charge{
-    font-size:26px;
+font-size:26px;
 }
+
 .text-charge{
-    padding:0 20px;
+padding:0 20px;
 }
 
-.card-charge h2,
+card-charge h2,
 .card-charge-reverse h2{
-margin-left:20px;
-margin-top:40px;
+align-items: center;
 }
 
-.card-charge p,
-.card-charge-reverse p{
-margin-left:20px;
-width:auto;
-}
-
-.btn-tertiary
+.btn-tertiary,
 .btn-tertiary2{
-margin-left:20px;
+padding: 10px 40px;
 }
 
 .img-charge img{
@@ -572,7 +541,8 @@ footer{
 padding:24px 16px;
 }
 
-footer li{text-align:left;
+footer li{
+text-align:left;
 }
 }  
 
